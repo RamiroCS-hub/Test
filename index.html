@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <head>
+        <title>ARQ</title>
+    </head>
+    <body id="body">
+        <div class="container"></div>
+        <div id="containerTotal">
+        <header>
+            <nav id="nav">
+                <p class="nav__logo"><b>C</b>ARNICER|<b>S</b>OUBLÉ <b>ARQ</b>UITECTOS</p>
+                <div class="nav__menuLogo"><i class="fa-solid fa-bars fa-3x"></i></div>
+                <ul class="nav__menu">
+                    <li class="salirMenu"><img src="Imagenes/salirMenu.png"></li>
+                    <li>OBRAS PUBLICAS</li>
+                    <li>CASAS</li>
+                    <li>EDIFICOS</li>
+                    <li>REMODELACIONES</li>
+                    <li>SOBRE NOSOTROS</li>
+                </ul>
+            </nav>
+             <div class="homeImage">
+                <div class="homeImage__Title">
+                    <h1>FRASE MOTIVADORA</h1>
+                    <i class="fa-solid fa-arrow-down-long arrowDown fa-5x"></i>
+                </div>
+            </div>
+        </header>
+        <article>
+            <section class="imagesGrid">
+                <a onclick="selectImage(1)" class="imagesGrid__img1 length">
+                    <img class="classTest" src="Imagenes/casa4.webp">
+                    <img class="classTest" src="Imagenes/GarageImage4.jpg">
+                    <img class="classTest" src="Imagenes/EntradaImage4.jpg">
+                </a>
+                <a onclick="selectImage(2)" class="imagesGrid__img2 length"><img src="Imagenes/casa1.jpg"></a>
+                <a onclick="selectImage(3)" class="imagesGrid__img3 length"><img src="Imagenes/casa3.jpg"></a>
+                <a onclick="selectImage(4)" class="imagesGrid__img4 length"><img src="Imagenes/casa2.jpg"></a>
+            </section>
+            <div class="slide1">
+                <i class="fa-solid fa-xmark fa-2x"></i>
+                <i class="fa-solid fa-angles-left fa-3x prev"></i>
+                <i class="fa-solid fa-angles-right fa-3x next"></i>
+            </div>
+        </article>
+    </div>
+        <script src="https://kit.fontawesome.com/6ec20b7979.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
